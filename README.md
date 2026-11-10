@@ -1,5 +1,7 @@
 # Bureau of Slop Investigation (BSI)
 
+<img src="skills/bsi-audit/assets/bsi-icon.png" alt="BSI logo: a slop monster crossed out by a red prohibition sign" width="180">
+
 *Protecting Humans from Crimes Against Readability.*
 
 Two skills for finding unnecessary reading and maintenance work, then deciding what to remove. The branding is satire; findings and implementation use plain engineering language.
