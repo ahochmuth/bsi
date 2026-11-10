@@ -15,15 +15,22 @@ Use the target named by the user. For a repository request without a narrower ta
 
 | Area | Look for |
 | --- | --- |
-| Verbosity | Redundant explanations, boilerplate, comments that repeat the code |
+| Verbosity |  Inflated wording, filler, redundant explanations, boilerplate, comments that repeat the code |
 | Complexity | Needless indirection, speculative flexibility, scattered logic, mixed responsibilities |
 | Duplication | Repeated rules or explanations maintained in multiple places |
 | Dead weight | Unused code, obsolete documentation, stale configuration, unsupported speculative features |
 | Misleading communication | Vague names, inaccurate comments, unexplained jargon, inconsistent terminology |
 
-Length, repetition, or one implementation is a reason to investigate, not proof of slop. Preserve useful explicitness and independent domain rules. Before recommending deletion, search references including exports, dynamic registration, fixtures, and configuration. No internal callers does not establish that a public API is unused.
+Length, repetition, or one implementation is a reason to investigate, not proof of slop. Preserve useful explicitness and independent domain rules. Before treating repetition as waste, check whether the passages serve different audiences, workflow stages, or standalone uses. Before recommending deletion, search references including exports, dynamic registration, fixtures, and configuration. No internal callers does not establish that a public API is unused.
 
 Exclude security, performance, and correctness findings and fixes from this report, including separate bonus sections. Behavior preservation constrains a proposed simplification; it does not expand the audit into those domains.
+
+## Inspect prose
+Examine wording within otherwise useful paragraphs. Look for ceremonial introductions, repeated qualifications, inflated phrases, abstract nouns hiding actions, and explanations that announce what the next heading already says.
+
+For a candidate passage, draft a shorter replacement. Preserve the actor, action, scope, obligation, conditions, exceptions, uncertainty, and useful rationale. Report it only when the replacement reduces reading effort without requiring the reader to infer missing meaning. Show a brief before and after.
+
+Prefer direct verbs and familiar words. Preserve normal grammar, necessary technical terms, and the document's intended tone. Word count alone is not evidence.
 
 ## Establish findings
 
