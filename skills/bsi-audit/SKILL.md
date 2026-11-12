@@ -30,7 +30,7 @@ Examine wording within otherwise useful paragraphs. Look for ceremonial introduc
 
 For a candidate passage, draft a shorter replacement. Preserve the actor, action, scope, obligation, conditions, exceptions, uncertainty, and useful rationale. Report it only when the replacement reduces reading effort without requiring the reader to infer missing meaning. Show a brief before and after.
 
-Prefer direct verbs and familiar words. Preserve normal grammar, necessary technical terms, and the document's intended tone. Word count alone is not evidence.
+Use plain English: familiar words, direct sentences, and technical terms the reader understands. Cut wording that adds no meaning. Preserve normal grammar, necessary technical terms, and the document's intended tone. Word count alone is not evidence.
 
 ## Establish findings
 
