@@ -58,3 +58,5 @@ The review workflow draws inspiration from Matt Pocock’s grill-me and grilling
 BSI follows the same principle: investigate independently, but leave consequential decisions to the human.
 
 Unlike those workflows, BSI provides batch approval for straightforward cleanup while reviewing substantial refactors individually. Neither skill is a runtime dependency.
+
+Licensed under the [MIT License](LICENSE).
