@@ -7,7 +7,7 @@ description: Use when the user requests a BSI or slop audit of code, tests, conf
 
 Find concrete opportunities to reduce the effort of understanding and maintaining the requested material. Produce an audit without changing files, including automatic cleanup or saved reports. Return the report in the conversation; save it only when requested.
 
-Keep instructions and findings in plain engineering language. BSI branding may appear in the report title; satire must not replace explanations or ridicule authors.
+Keep instructions and findings in plain engineering language.
 
 ## Inspect the scope
 
